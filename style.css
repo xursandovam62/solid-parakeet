@@ -1,0 +1,39 @@
+.container {
+    width: 1440px;
+    height: 1052px;
+    background-color:#EFF0F6
+}
+
+.write{
+    color: #4A3AFF;
+    font-size: 18px;
+    padding-top: 220px;
+    padding-left: 666px;
+    padding-right: 684px;
+}
+.big {
+    width:429px ;
+    height:92px;
+    padding-left: 497px;
+    padding-right:513px;
+    font-weight: 700;
+    font-size: 34px;
+}
+.download_bg {
+    padding-top: 32px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    background-color: #ffff;
+}
+.send{
+   background-color: #4A3AFF;
+   border: none;
+   border-radius: 100px;
+   color: white;
+   margin-top: 48px;
+   margin-left:607px;
+   margin-bottom:220px;
+   padding: 18px 40px 18px 40px;
+}
