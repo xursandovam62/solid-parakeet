@@ -1,24 +1,51 @@
-.container {
-    width: 1440px;
-    height: 1052px;
-    background-color:#EFF0F6
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.write{
+.container {
+    padding: 20px;
+    max-width: 1282px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-gray {
+    background-color: #EFF0F6;
+}
+
+.min-h-100vh {
+    min-height: 100vh;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.write {
     color: #4A3AFF;
     font-size: 18px;
-    padding-top: 220px;
-    padding-left: 666px;
-    padding-right: 684px;
+    line-height: 20px;
+    text-align: center;
 }
+
 .big {
-    width:429px ;
-    height:92px;
-    padding-left: 497px;
-    padding-right:513px;
+    text-align: center;
     font-weight: 700;
     font-size: 34px;
+    line-height: 46px;
+    color: #170F49;
+
 }
+
 .download_bg {
     padding-top: 32px;
     border-radius: 20px;
@@ -27,13 +54,64 @@
     gap: 1rem;
     background-color: #ffff;
 }
-.send{
-   background-color: #4A3AFF;
-   border: none;
-   border-radius: 100px;
-   color: white;
-   margin-top: 48px;
-   margin-left:607px;
-   margin-bottom:220px;
-   padding: 18px 40px 18px 40px;
+
+.send {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+
+    text-align: center;
+
+    /* Neutral/100 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    background: #4A3AFF;
+    border-radius: 100px;
+    padding: 20px 40px;
+
+    border: none;
+
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex {
+    display: flex;
+    gap: 1.5rem;
+}
+.card {
+    flex-grow: 1;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #EFF0F6;
+    padding: 32px 32px 32px 32px;
+    box-shadow: 0px 5px 14px 0px rgba(8, 15, 52, 0.04);
+}
+
+.card-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 14px;
+    color: #170F49;
+}
+
+.card-description {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6F6C90;
 }
